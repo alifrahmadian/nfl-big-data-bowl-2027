@@ -1,0 +1,9 @@
+# Initial exploration environment. Record installed versions after a successful setup.
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+pyarrow
+jupyterlab
+ipykernel

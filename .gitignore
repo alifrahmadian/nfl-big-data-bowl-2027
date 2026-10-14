@@ -1,0 +1,38 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Competition data and derived datasets
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Credentials and local configuration
+.env
+.env.*
+.kaggle/
+kaggle.json
+access_token
+*.pem
+*.key
+
+# macOS files and download archives
+.DS_Store
+__MACOSX/
+*.zip
+
+# Local editor settings
+.idea/
+.vscode/
